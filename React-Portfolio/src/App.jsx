@@ -1,7 +1,10 @@
 import Navbar from "./Components/Navbar"
 import Hero from "./Components/Hero"
 import About from "./Components/About"
-// import Technologies from "./Components/Technologies"
+import Technologies from "./Components/Technologies"
+import Experience from "./Components/Experience"
+import Projects from "./Components/Projects"
+import Contact from "./Components/Contact"
 
 const App = () => {
   return (
@@ -16,7 +19,10 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
-      {/* <Technologies/> */}
+      <Technologies />
+      <Experience/>
+      <Projects/>
+      <Contact/>
       </div>
       
       
