@@ -3,11 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Motivated Computer Science final year student skilled in HTML, CSS, JavaScript, React, Python. Seeking a
-Full-Stack Web Development internship to apply my technical abilities and contribute to innovative projects
-within a forward-thinking organization.`;
+export const HERO_CONTENT = `I'm Ojas Kumar Gupta, a passionate Full Stack Developer crafting seamless web experiences with a touch of creativity. I blend code with innovation, turning complex problems into elegant solutions. Whether it's building dynamic user interfaces or architecting robust back-end systems, I thrive on bringing ideas to life. Dive in, explore my journey, and let's create something amazing together.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `As a Full Stack Developer, I thrive on the challenge of bringing ideas to life through code. I’m passionate about crafting web experiences that are not only functional but also visually compelling and user-friendly. My journey in development has been fueled by a constant curiosity and a desire to innovate—whether it's designing dynamic interfaces or building robust back-end systems, I’m always eager to push the boundaries of what’s possible. I see every project as an opportunity to learn, grow, and create something meaningful that can make a difference in the digital world.`;
 
 export const EXPERIENCES = [
   {
@@ -35,37 +33,51 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "The Noble Artist Business Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The Noble Artist, an art products startup, enhanced website performance, increasing traffic by 20% and boosting customer engagement.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Task Management App",
+    title: "Disease Detection through Blood Sampling using Machine Learning",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An ML based website to detect disease through blood reports. Libraries involved Pandas for data handling and filtering, numpy for numerical operations, scikit-learn for model training and evaluation, and pickle for exporting the trained model.",
+    technologies: ["Django", "Python", "Machine Learning", "Pandas", "numpy"],
   },
   {
-    title: "Portfolio Website",
+    title: "Comprehensive Todos List Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "To Do List is a React-based application for managing tasks effectively.The application has a Node.js and Express backend that handles data storage and retrieval while the frontend provides users with the power and functionality to add modify and delete actions.The app is designed to work seamlessly across mobile tablet and desktop devices.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Bootstrap",
+      "Node.js",
+    ],
   },
   {
-    title: "Blogging Platform",
+    title: "Persoanl Website / Portfolio",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Explore my personal portfolio, a showcase of my work built with React, styled with Tailwind CSS, and animated with Framer Motion. This site reflects my passion for clean code, modern design, and smooth, engaging user experiences. Dive in to see how I blend creativity with technical expertise to bring ideas to life on the web",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Vue.js",
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Lucknow - 226017, Uttar Pradesh ",
+  phoneNo: "+91-9305703892",
+  email: "ojaskumargupta28@gmail.com",
 };
