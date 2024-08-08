@@ -27,7 +27,7 @@ const Technologies = ()=> {
       className="my-20 text-center text-4xl">Technologies</motion.h1>
       <motion.div
       whileInView={{opacity:1, x:0}}
-      initial={{opacity: 0, x:-100}}
+      inital={{opacity:0, x:-100}}
       transition={{duration:1.5}}
       className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
@@ -66,12 +66,12 @@ const Technologies = ()=> {
         className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiHtml5 className="text-7xl text-orange-600" />
         </motion.div>
-        <motion.div
+        <motion.di
         variants={iconVariants(6)}
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
           <TbBrandTailwind className="text-7xl text-teal-500" />
-        </motion.div>
+        </motion.di>
         <motion.div
         variants={iconVariants(7)}
         animate="animate"

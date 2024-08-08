@@ -38,6 +38,7 @@ export const PROJECTS = [
     description:
       "The Noble Artist, an art products startup, enhanced website performance, increasing traffic by 20% and boosting customer engagement.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://anuragkush2527.github.io/The-Noble-Artist-Business-Website/",
   },
   {
     title: "Disease Detection through Blood Sampling using Machine Learning",
@@ -59,6 +60,7 @@ export const PROJECTS = [
       "Bootstrap",
       "Node.js",
     ],
+    url: "https://ojas-todolist.netlify.app",
   },
   {
     title: "Persoanl Website / Portfolio",
